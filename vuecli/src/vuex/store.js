@@ -3,14 +3,17 @@ import Vuex from 'vuex';
 
 Vue.use(Vuex);
 
-const state = {
+const state = {//固定的值
     num : 5,
     x:10
 }
 
-const mutations = {
+const mutations = {//要改变的
     add(state){
         state.num++;
+    },
+    reduce(state,n){
+        state.num-=n;
     }
 }
 
