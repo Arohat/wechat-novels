@@ -69,7 +69,7 @@
                 var clientHeight = document.documentElement.clientHeight;
                 //整个页面高度
                 var scrollHeight = document.documentElement.scrollHeight;
-                console.log(Math.ceil(scrollTop) ,clientHeight , scrollHeight);
+                // console.log(Math.ceil(scrollTop) ,clientHeight , scrollHeight);
                 if(Math.abs(scrollTop + clientHeight - scrollHeight ) < 1){
                     //因为scrollTop取不到，输出的值上下浮动不到1，因此做差取绝对值与1相比
                     //isEnd == true 数据加载完 判断到达底部
@@ -97,8 +97,6 @@
     .img-box img{
         width:100%;
     }
-
-
     .info-box{
         flex-grow: 2;
         width: 0;
