@@ -100,7 +100,6 @@
     .info-box{
         flex-grow: 2;
         width: 0;
-        
     }
     .title{
         font-size: 0.33rem;
