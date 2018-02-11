@@ -88,6 +88,7 @@
         display: flex;
         padding: 0.2rem;
         border-bottom:0.02rem solid #ccc;
+        
     }
     .img-box{
         flex-grow: 1;
