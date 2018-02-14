@@ -1,51 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79d8538a-9816-47cd-bd01-4ca15731d4c8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/chinese_music.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/ktv_music.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/my_music.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/new_music.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/original_music.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/soar_music.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/MusicList.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/data/musicdata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/data/musiclist.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/data/photodata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/lrc/假如爱有天意.lrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/lrc/刚好遇见你-李玉刚.lrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/lrc/十年.lrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/lrc/就是爱你.lrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/lrc/成都-赵雷.lrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/lrc/我要你.lrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/components/musics/MusicList.vue" afterPath="$PROJECT_DIR$/app/src/components/musics/MusicList.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/router/index.js" afterPath="$PROJECT_DIR$/app/src/router/index.js" />
-    </list>
+    <list default="true" id="79d8538a-9816-47cd-bd01-4ca15731d4c8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -96,6 +52,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/static/data/musicdata.json" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -331,17 +294,18 @@
       <workItem from="1517794749056" duration="99000" />
       <workItem from="1517795037205" duration="62000" />
       <workItem from="1517795330732" duration="611000" />
+      <workItem from="1518620909434" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="796000" />
+    <option name="totallyTimeSpent" value="812000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1932" height="1032" extended-state="1" />
-    <editor active="true" />
+    <frame x="-9" y="0" width="1932" height="1032" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -370,6 +334,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vuecli/src/vuex/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/MusicList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/data/musicdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vuecli/src/vuex/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
