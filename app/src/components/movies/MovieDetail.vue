@@ -32,7 +32,7 @@
         mounted:function(){
             axios.get(API_INTERFACE+'http://m.maoyan.com/movie//'+this.$route.params.id+'.json').then((res)=>{
                 this.details = res.data.data.MovieDetailModel
-               
+
             }).catch(()=>{
                 console.log('请求失败')
             })
@@ -67,6 +67,7 @@
     .detail-content{
         margin: 0.2rem;
         border-bottom: 1px solid #ccc;
+
     }
 
 </style>
