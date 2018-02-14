@@ -96,7 +96,6 @@
     }
     .img-box img{
         width:100%;
-        height: 100%;
     }
     .info-box{
         flex-grow: 2;
