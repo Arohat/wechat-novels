@@ -5,14 +5,20 @@ import Test from '@/components/Test'
 import SubTest1 from '@/components/SubTest1'
 import SubTest2 from '@/components/SubTest2'
 import TestUrl from '@/components/TestUrl'
+import Error from '@/components/Error'
 Vue.use(Router)
 
 export default new Router({//使用router的时候new Router
+  mode: 'history',
   routes: [
     {
       path: '/',
       name: 'HelloWorld',
-      component: HelloWorld/* path里面的路径对应的模板HelloWorld,用HelloWorld替换<router-view/> */
+      component: HelloWorld,/* path里面的路径对应的模板HelloWorld,用HelloWorld替换<router-view/> */
+      beforeEnter: (to, from, next) => {
+        console.log(to, from);//第一个参数，从哪里来;第二个参数，到哪里去
+        next();//进行跳转，如果不想跳转，可以写成：next(false)
+      }
     },
     {
       path: '/Test/',
@@ -35,6 +41,22 @@ export default new Router({//使用router的时候new Router
       path: '/TestUrl/:userId/:userName',
       name: 'TestUrl',
       component: TestUrl
+    },
+    {
+      path: '/home/',
+      redirect: '/'
+    },
+    {
+      path: '/redirect/:userId/:userName',
+      redirect: '/TestUrl/:userId/:userName'
+    },
+    {
+      path: '/home/',
+      alias: '/abc',
+    },
+    {
+      path: '*',
+      component: Error,
     }
   ]
 })
