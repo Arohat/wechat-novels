@@ -16,7 +16,7 @@
 <style scoped>
     .com-bottom{
         height: 1rem;
-        background:rgb(33, 150, 243); 
+        background:rgb(27, 26, 26); 
         position: fixed;
         bottom:0;
         left: 0;

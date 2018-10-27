@@ -1,7 +1,7 @@
 <template>
     <div class="com-top" :style="{background:$store.state.bgcolor}">
         <router-link to="/">
-            <span class="com-top-btn">首页</span>
+            <span class="com-top-btn">返回首页</span>
         </router-link>
             
         <h2>
@@ -19,7 +19,7 @@
 <style scoped>
      .com-top{
         height: 1rem;
-        background:rgb(33, 150, 243); 
+        background:rgb(27, 26, 26); 
         position: fixed;
         top:0;
         left: 0;
@@ -34,6 +34,8 @@
         transform: translateY(-50%);
     }
     .com-top h2{
+        font-size: 0.4rem;
+        font-weight: bold;
         line-height: 1rem;
         text-align: center;
         color: #fff;

@@ -57,7 +57,7 @@
         },
         mounted:function(){
             //改变footer top 颜色 标题
-            this.$store.commit('change',{bgColor:'rgb(33, 150, 243)',title:'Movie'})
+            this.$store.commit('change',{bgColor:'rgb(33, 150, 243)',title:'电影'})
             //axios请求
             this.load();
             
@@ -106,7 +106,7 @@
         font-weight: bold;
     }
     .info-box p{
-        font-size: 0.27rem;
+        font-size: 0.24rem;
     }
     .load{
         text-align:center;

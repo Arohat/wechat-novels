@@ -1,5 +1,12 @@
 {
-  "musicData": [{
+  "musicData": [
+  {
+      "title": "红昭愿" ,
+      "author": "音阙诗听",
+      "src": "http://up.mcyt.net/?down/37696.mp3",
+      "musicImgSrc": "http://singerimg.kugou.com/uploadpic/softhead/400/20170721/20170721162945806.jpg",
+      "lrc": "lrc/红昭愿.lrc"
+  },{
     "title": "我要你",
     "author": "老狼",
     "src": "http://up.mcyt.net/md5/53/OTkwNzUxMQ_Qq4329912.mp3",
@@ -35,11 +42,20 @@
     "src": "http://up.mcyt.net/md5/53/OTk1MDE2NA_Qq4329912.mp3",
     "musicImgSrc": "http://p4.music.126.net/lDyytkTaPYVTb1Vpide6AA==/18591642115187138.jpg",
     "lrc": "lrc/刚好遇见你-李玉刚.lrc"
-  },{
-    "title": "尽头",
-    "author": "赵方婧",
-    "src": "http://www.0dutv.com/plug/down/up2.php/109501554.mp3",
-    "musicImgSrc": "http://www.0dutv.com/upload/magic/156.jpg",
-    "lrc": "lrc/尽头-赵方婧.lrc"
-  }]
+  },
+  {
+    "title": "追光者",
+    "author": "哥哥李",
+    "src": "http://up.mcyt.net/?down/46866.mp3",
+    "musicImgSrc": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2556611937,1195664541&fm=58&bpow=2000&bpoh=2000",
+    "lrc": "lrc/追光者.lrc"
+  },
+  {
+    "title": "我以为",
+    "author": "韩媛儿",
+    "src": "http://up.mcyt.net/?down/46862.mp3",
+    "musicImgSrc": "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=1966530758,2191085261&fm=58&bpow=300&bpoh=300",
+    "lrc": "lrc/韩媛儿.lrc"
+  }
+]
 }

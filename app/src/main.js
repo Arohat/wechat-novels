@@ -6,9 +6,8 @@ import router from './router'
 import axios from 'axios'
 
 Vue.config.productionTip = false
-global.API_INTERFACE = 'https://bird.ioliu.cn/v1/?url='
-
-/* eslint-disable no-new */
+Vue.prototype.$http = axios
+global.API_INTERFACE = 'https://bird.ioliu.cn/v1?url='
 new Vue({
   el: '#app',
   router,

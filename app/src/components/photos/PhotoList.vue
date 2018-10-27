@@ -17,9 +17,9 @@
             }
         },
         mounted:function(){
-            this.$store.commit('change',{bgColor:'rgb(63, 81, 181)',title:'Photo'});
+            this.$store.commit('change',{bgColor:'rgb(63, 81, 181)',title:'图片'});
             //ajax
-            axios.get('static/data/photodata.json').then(res=>{
+            axios.get('/static/data/photodata.json').then(res=>{
                 this.photoData = res.data.photoData;
                 this.$store.state.photoData = this.photoData;
             })
