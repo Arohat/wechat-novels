@@ -1,0 +1,24 @@
+<view style="padding: 20rpx;">
+  <view wx:for="{{message.charts}}" wx:key="{{item.id}}" class='classify-scrollBox'>
+    <i-panel title="{{item.name}}" i-class="title">
+      <scroll-view scroll-x>
+        <view class='classify-box' data-id="{{sub.id}}" bindtap='goSerial' wx:for="{{item.columns}}" wx:for-item="sub"
+              wx:key="{{sub.id}}">
+          <image src='{{sub.cover_url}}' class='classify-img'></image>
+          <view class='classify-bottom'>
+            <view>{{sub.title}}</view>
+            <view>{{sub.author}}</view>
+            <view>{{sub.subscriber_num}}人订阅</view>
+          </view>
+        </view>
+      </scroll-view>
+    </i-panel>
+  </view>
+  <i-panel title="连载分类" i-class="title">
+    <view class="tag-box">
+      <view class='tags' wx:for="{{message.kinds}}" wx:key="{{item.id}}" data-id="{{item.id}}">
+        <i-tag class="i-tags" name="{{item.name}}" color="yellow">{{item.name}}</i-tag>
+      </view>
+    </view>
+  </i-panel>
+</view>

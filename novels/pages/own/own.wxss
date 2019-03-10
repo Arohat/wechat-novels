@@ -1,0 +1,16 @@
+/**index.wxss**/
+.own-card {
+  font-size: 36rpx;
+}
+.own-card image {
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+.icon-box {
+  display: flex;
+  align-items: center;
+}
+.icon-img {
+  width: 40rpx;
+  height: 40rpx;
+}

@@ -1,0 +1,52 @@
+/* pages/classify.wxss */
+
+.i-tags {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2rpx;
+}
+
+.classify {
+  padding: 36rpx 26rpx;
+}
+
+.classify-box {
+  margin-bottom: 20rpx;
+  padding: 30rpx 20rpx;
+  background-color: #f8f9f9;
+  border: 1px solid #ddd;
+}
+
+.classify-left image {
+  width: 200rpx;
+  height: 300rpx;
+}
+
+.classify-right .title {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+
+.classify-right .subtitle {
+  font-size: 26rpx;
+  margin-bottom: 10rpx;
+}
+
+.classify-right .name {
+  font-size: 26rpx;
+  color: #a6a6a6;
+  margin-bottom: 10rpx;
+}
+
+.classify-right .info {
+  font-size: 26rpx;
+  color: #a6a6a6;
+  margin-bottom: 20rpx;
+}
+
+.classify-right .price {
+  font-size: 26rpx;
+  color: #a6a6a6;
+}

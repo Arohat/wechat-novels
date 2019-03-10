@@ -1,0 +1,17 @@
+<view wx:for="{{info}}" wx:key="{{index}}" class='bookCity-scrollBox'>
+  <view class="more" data-type="{{item.name}}" bindtap='goAll'>
+    <i-icon type="enter" size="20" color="#80848f" />
+  </view>
+  <i-panel title="{{item.zwName}}">
+    <scroll-view scroll-x>
+      <view wx:for="{{item.works}}" wx:for-item="sub" wx:for-index="idx" wx:key="{{idx}}" class='bookCity-box' data-id="{{sub.id}}" bindtap='goBookDetail'>
+        <image src='{{sub.cover}}' class='bookCity-img'></image>
+        <view class='bookCity-bottom'>
+          <view>{{sub.title}}</view>
+          <view>{{sub.author}}</view>
+          <view>￥{{sub.price / 100}}</view>
+        </view>
+      </view>
+    </scroll-view>
+  </i-panel>
+</view>

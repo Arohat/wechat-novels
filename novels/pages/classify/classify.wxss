@@ -1,0 +1,51 @@
+/* 连载小说 */
+.classify-scrollBox {
+  white-space: nowrap;
+}
+.classify-box {
+  display: inline-block;
+  width: 200rpx;
+  margin-right: 30rpx;
+}
+
+.classify-box:last-child {
+  margin-right: 0;
+}
+
+.classify-img {
+  width: 200rpx;
+  height: 300rpx;
+}
+
+.classify-bottom {
+  font-size: 24rpx;
+  color: #61b39b;
+}
+
+.classify-bottom view:first-child {
+  font-weight: bold;
+  white-space: pre-wrap;
+  color: #000;
+  height: 60rpx;
+}
+
+.classify-bottom view:last-child {
+  margin-bottom: 20rpx;
+}
+
+/*分类标签*/
+.title {
+  font-weight: bold;
+}
+
+.tag-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-weight: normal;
+}
+
+.tags {
+  margin-right: 20rpx;
+  margin-bottom: 40rpx;
+}

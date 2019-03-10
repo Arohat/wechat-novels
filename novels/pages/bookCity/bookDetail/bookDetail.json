@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "i-row": "../../dist/row/index",
+    "i-col": "../../dist/col/index",
+    "i-rate": "../../dist/rate/index",
+    "i-panel": "../../dist/panel/index",
+    "i-badge": "../../dist/badge/index",
+    "i-button": "../../dist/button/index",
+    "i-icon": "../../dist/icon/index"
+  }
+}

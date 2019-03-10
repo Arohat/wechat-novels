@@ -1,0 +1,57 @@
+<!-- pages/classify/serial/serial.wxml -->
+<view class="banner">
+  <image src="{{info.banner}}"></image>
+</view>
+<view class="header">
+  <view class="title">{{info.title}}</view>
+  <view class="name" data-id="{{info.id}}" data-url="{{info.url}}">
+    <image src="{{info.agent.picture}}"></image>
+    <text>{{info.agent.name}}</text>
+  </view>
+  <view class="info">{{info.heighlights}}</view>
+  <view class="rating">
+    <i-rate value="{{aver}}" size="16"></i-rate>
+  </view>
+  <view class="tag">
+    <view class="tag-left">
+      <i-icon type="accessory" size="20" color="#80848f" class="icon" />
+      <i-tag class="i-tags" name="{{info.category}}" color="yellow" bindtap="gocata" data-tag="{{info.category}}">
+        {{info.category}}
+      </i-tag>
+    </view>
+    <view class="tag-right">
+      <i-icon type="label" size="20" color="#80848f" class="icon" />
+      <i-tag class="i-tags" name="{{item.name}}" color="yellow" bindtap="gocata" wx:for="{{info.tags}}" wx:key="index" data-tag="{{item.name}}">{{item.name}}</i-tag>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="footer-left">{{info.wordCount}}</view>
+    <view class="footer-right">
+      <text>{{info.subscriberNum}} 订阅</text>
+      <text>{{info.readCount}} 阅读</text>
+    </view>
+  </view>
+</view>
+<view class="brief">
+  <i-panel title="简介">
+    <view class="brief-info">{{info.abstract}}</view>
+  </i-panel>
+</view>
+<view class='directory'>
+  <i-panel title="目录（{{directoryTotal}}）">
+    <i-cell-group>
+      <i-cell title="{{item.title}}" label='{{item.abstract}}' i-class="directory-box" wx:for="{{directoryList}}" wx:key="{{index}}">
+        <view class='directory-bottom'>
+          <text>{{item.onSaleTime}}</text>
+          <view>
+            <i-icon type="interactive" size="20" color="#80848f" />
+            <text>{{item.readCount}}</text>
+            <i-icon type="message" size="20" color="#80848f" />
+            <text>{{item.commentCount}}</text>
+          </view>
+        </view>
+      </i-cell>
+    </i-cell-group>
+    <i-button bind:click="handleClick" type="ghost" shape="circle" size="small">加载更多</i-button>
+  </i-panel>
+</view>

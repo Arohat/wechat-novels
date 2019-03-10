@@ -1,0 +1,68 @@
+<view style='background-color: #f8f9f9;'>
+  <view class="bookInfo">
+    <i-row>
+      <i-col span="16" i-class="bookInfo-left">
+        <view class='title'>{{message.title}}</view>
+        <view class='subtitle'>{{message.subtitle}}</view>
+        <view class='box'>
+          <i-rate value="{{avar}}" size="14" disabled></i-rate>
+          <text style="color: #fa595f;">{{message.average_rating * 2}}</text>
+          <text style='color: #a6a6a6;'>{{message.rating_cnt}} 评价</text>
+          <text>|</text>
+          <text style='color: #a6a6a6;'>{{message.read_count}} 阅读</text>
+        </view>
+        <view class='bottom-box'>
+          <view>{{message.original_author}}</view>
+          <view wx:if="{{message.translator == '' ? false : true}}">{{message.translator}}译</view>
+          <view>{{message.kind}}</view>
+          <view>{{message.publisher}} / {{message.publish_time}}</view>
+          <view>{{message.round_word_count}}</view>
+        </view>
+      </i-col>
+      <i-col span="8" i-class="bookInfo-right">
+        <image src='{{message.cover}}'></image>
+      </i-col>
+    </i-row>
+    <view class='price'>￥{{message.price / 100}}</view>
+  </view>
+  <view class='abstract'>
+    <i-panel title="简介" i-class="title">
+      <view class='abstract-container'>{{message.abstract}}</view>
+    </i-panel>
+  </view>
+  <view class='catalog'>
+    <i-panel title="目录" i-class="title">
+      <view class='ul'>
+        <view class='li' wx:for="{{message.table_of_contents}}" wx:key="{{index}}">{{item.level == 0 ? ' · ' + item.title : ' · ' + item.title}}</view>
+      </view>
+    </i-panel>
+  </view>
+  <view class='tag'>
+    <i-panel title="标签" i-class="title">
+      <view class='tag-container'>
+        <view wx:for="{{message.tags}}" wx:key="{{index}}" data-tag="{{item.tag}}" bindtap='goBookCity' style="margin-top: 20rpx;">
+          <text>{{item.tag}}</text>
+        </view>
+      </view>
+    </i-panel>
+  </view>
+  <view class='author'>
+    <i-panel title="{{message.agent_works_relationship}}" i-class="title">
+      <view class='author-container'>
+        <view class='body-title' bindtap='jumpPublish'>
+          <image src="{{message.agent.picture}}"></image>
+          <text>{{message.agent.name}}</text>
+        </view>
+        <view class='body-content'>
+          <text>{{message.agent.intro}}</text>
+        </view>
+        <i-button bind:click="jumpPublish" type="default" shape="circle" size="small" i-class="btn">
+          <view class='btn-content'>
+            <i-icon type="other" size="22" color="#80848f" />
+            <text>共{{message.agent.works_count}}部</text>
+          </view>
+        </i-button>
+      </view>
+    </i-panel>
+  </view>
+</view>

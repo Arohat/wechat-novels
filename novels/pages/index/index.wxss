@@ -1,0 +1,12 @@
+/* pages/index/index.wxss */
+.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.index image {
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+    margin-bottom: 40rpx;
+}

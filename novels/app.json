@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/bookCity/bookCity",
+    "pages/bookCity/bookDetail/bookDetail",
+    "pages/bookCity/bookDetail/bookPublish/bookPublish",
+    "pages/bookCity/bookAll/bookAll",
+    "pages/classify/classify",
+    "pages/classify/classifyInfo/classifyInfo",
+    "pages/classify/serial/serial",
+    "pages/own/own"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "墨羽读书",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1aad19",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/bookCity/bookCity",
+        "text": "书城",
+        "iconPath": "static/images/bookCity.png",
+        "selectedIconPath": "static/images/bookCity_sel.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "连载",
+        "iconPath": "static/images/classify.png",
+        "selectedIconPath": "static/images/classify_sel.png"
+      },
+      {
+        "pagePath": "pages/own/own",
+        "text": "我的",
+        "iconPath": "static/images/own.png",
+        "selectedIconPath": "static/images/own_sel.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+<i-tag class="i-tags" name="{{tag}}" color="yellow">
+  {{tag}}
+</i-tag>
+<i-tabs current="{{ current }}" bind:change="handleChange">
+  <i-tab key="hot" title="热门"></i-tab>
+  <i-tab key="new" title="新上架"></i-tab>
+</i-tabs>
+<view class='classify'>
+  <i-row i-class="classify-box" wx:for="{{info}}" wx:key="{{index}}" data-id="{{item.id}}" bindtap="goDetail">
+    <i-col span="8" i-class="classify-left">
+      <image src="{{item.cover}}"></image>
+    </i-col>
+    <i-col span="16" i-class="classify-right">
+      <view class='title'>{{item.title}}</view>
+      <view class='subtitle'>{{item.subtitle}}</view>
+      <view class='name'>{{item.author.name ? item.author.name : item.author}}</view>
+      <view class='info'>{{item.abstract}}</view>
+      <view class='price'>
+        <text style="text-decoration: line-through;">{{item.fixed_price}}</text>
+        <text style='color: #fa595f;'>￥{{item.price / 100}}</text>
+      </view>
+    </i-col>
+  </i-row>
+</view>
+<i-button bind:click="loading-more" type="ghost" shape="circle" size="small">
+  <view>加载更多~~~</view>
+</i-button>

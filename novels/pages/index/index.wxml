@@ -1,0 +1,7 @@
+<!-- 微信授权登陆页面 -->
+<view style="background-color: #ddd; padding: 480rpx 0;">
+    <view class="index">
+        <image src="../../static/images/timg.jpg"></image>
+        <button open-type='getUserInfo' bindgetuserinfo='getUserInfo' size="mini" type="primary">点击授权信息确认</button>
+    </view>
+</view>

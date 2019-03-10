@@ -1,0 +1,152 @@
+/* pages/bookCity/bookDetail/bookDetail.wxss */
+
+.bookInfo {
+  background-color: #fff;
+  padding: 36rpx 26rpx;
+}
+
+.bookInfo .price {
+  margin-top: 30rpx;
+  font-size: 30rpx;
+  color: #a6a6a6;
+}
+
+.bookInfo-left {
+  font-size: 24rpx;
+}
+
+.bookInfo-left .title {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.bookInfo-left .subtitle {
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+}
+
+.bookInfo-left .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bookInfo-left .bottom-box {
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  color: #a6a6a6;
+}
+
+.bookInfo-right {
+  text-align: center;
+}
+
+.bookInfo-right image {
+  padding-top: 20rpx;
+  width: 200rpx;
+  height: 300rpx;
+}
+
+/* 简介 */
+
+.title {
+  font-weight: bold;
+}
+
+.abstract-container {
+  background-color: #f8f9f9;
+  padding: 30rpx 26rpx;
+  font-size: 28rpx;
+  font-weight: normal;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 目录 */
+
+.catalog {
+  border-bottom: 1px solid #ddd;
+}
+
+.catalog .ul {
+  background-color: #f8f9f9;
+  padding: 30rpx 26rpx;
+  font-size: 28rpx;
+  font-weight: normal;
+}
+
+.catalog .li {
+  white-space: pre;
+}
+
+/* 标签 */
+
+.tag {
+  border-bottom: 1px solid #ddd;
+}
+
+.tag-container {
+  background-color: #f8f9f9;
+  color: #fff;
+  padding: 30rpx 26rpx;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 32rpx;
+  font-weight: normal;
+}
+
+.tag-container text {
+  margin-right: 16rpx;
+  margin-bottom: 16rpx;
+  padding: 10rpx 20rpx;
+  background-color: #68abb7;
+  font-size: 26rpx;
+  border-radius: 40rpx;
+}
+
+/* 作者 */
+
+.author {
+  border-bottom: 1px solid #ddd;
+}
+
+.author-container {
+  background-color: #f8f9f9;
+  padding: 30rpx 26rpx;
+}
+
+.author-container .body-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50rpx;
+}
+
+.author-container .body-title image {
+  margin-right: 20rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.author-container .body-title text {
+  font-size: 30rpx;
+  font-weight: normal;
+}
+
+.author-container .body-content {
+  font-size: 30rpx;
+  font-weight: normal;
+}
+
+.author-container .btn-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+}
+
+.author-container .btn-content .btn:hover {
+  background: #f00;
+  color: #f00;
+}

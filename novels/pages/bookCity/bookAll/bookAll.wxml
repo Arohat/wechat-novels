@@ -1,0 +1,19 @@
+<view class='bookAll'>
+  <i-row wx:for="{{info}}" wx:key="{{index}}" i-class="bookAll-box" data-id="{{item.id}}" bindtap="goDetail">
+    <i-col span="8" i-class="bookAll-left">
+      <image src='{{item.cover}}'></image>
+    </i-col>
+    <i-col span="16" i-class="bookAll-right">
+      <view class='title'>{{item.title}}</view>
+      <text class='tag' wx:if="{{item.kind == '' ? false : true}}">{{item.kind}}</text>
+      <view class='subtitle'>{{item.subtitle}}</view>
+      <view class='name'>{{item.author}}</view>
+      <view class='intro'>{{item.abstract}}
+      </view>
+      <text>￥{{item.price / 100}}</text>
+    </i-col>
+  </i-row>
+</view>
+<i-button bind:click="loading-more" type="ghost" shape="circle" size="small">
+  <view>加载更多~~~</view>
+</i-button>

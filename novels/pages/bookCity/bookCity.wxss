@@ -1,0 +1,45 @@
+/* pages/bookCity.wxss */
+
+.bookCity-scrollBox {
+  position: relative;
+  padding: 0 24rpx;
+  white-space: nowrap;
+}
+
+.more {
+  position: absolute;
+  z-index: 999;
+  top: 24rpx;
+  right: 24rpx;
+}
+
+.bookCity-box {
+  display: inline-block;
+  width: 200rpx;
+  margin-right: 30rpx;
+}
+
+.bookCity-box:last-child {
+  margin-right: 0;
+}
+
+.bookCity-img {
+  width: 200rpx;
+  height: 300rpx;
+}
+
+.bookCity-bottom {
+  font-size: 24rpx;
+  color: #61b39b;
+}
+
+.bookCity-bottom view:first-child {
+  font-weight: bold;
+  white-space: pre-wrap;
+  color: #000;
+  height: 96rpx;
+}
+
+.bookCity-bottom view:last-child {
+  margin-bottom: 20rpx;
+}

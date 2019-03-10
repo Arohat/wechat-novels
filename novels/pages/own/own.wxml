@@ -1,0 +1,27 @@
+<i-card i-class="own-card" title="{{userInfo.nickName}}" thumb="{{userInfo.avatarUrl}}">
+  <view slot="footer">openid：{{openid}}</view>
+</i-card>
+<i-cell-group>
+  <i-cell title="国家" value="{{userInfo.country}}">
+    <view slot="icon" class="icon-box">
+      <image class="icon-img" src="../../static/images/country.png"></image>
+    </view>
+  </i-cell>
+  <i-cell title="省" value="{{userInfo.province}}">
+    <view slot="icon" class="icon-box">
+      <image class="icon-img" src="../../static/images/province.png"></image>
+    </view>
+  </i-cell>
+  <i-cell title="市" value="{{userInfo.city}}">
+    <view slot="icon" class="icon-box">
+      <image class="icon-img" src="../../static/images/city.png"></image>
+    </view>
+  </i-cell>
+  <i-cell title="性别" value="{{userInfo.gender == 1 ? '男' : '女'}}">
+    <view slot="icon" class="icon-box">
+      <i-icon type="mine_fill" size="20" color="#80848f"  />
+    </view>
+  </i-cell>
+</i-cell-group>
+
+    

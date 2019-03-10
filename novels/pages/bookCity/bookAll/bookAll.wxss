@@ -1,0 +1,49 @@
+.bookAll {
+  background-color: #f8f9f9;
+  padding: 36rpx 26rpx;
+}
+
+.bookAll-box {
+  padding-bottom: 20rpx;
+  margin-bottom: 30rpx;
+  border-bottom: 1px solid #ddd;
+}
+
+.bookAll-left image {
+  width: 200rpx;
+  height: 300rpx;
+}
+
+.bookAll-right .title {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+
+.bookAll-right .tag {
+  background-color: #68abb7;
+  color: #fff;
+  font-size: 20rpx;
+  padding: 0 6rpx;
+}
+
+.bookAll-right .subtitle {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+  margin-bottom: 16rpx;
+}
+
+.bookAll-right .name {
+  font-size: 26rpx;
+  color: #a6a6a6;
+  margin-bottom: 26rpx;
+}
+
+.bookAll-right .intro {
+  font-size: 26rpx;
+  color: #a6a6a6;
+}
+
+.bookAll-right text {
+  font-size: 26rpx;
+  color: #a6a6a6;
+}
